@@ -1,0 +1,15 @@
+{
+    "fileLocations": [
+        {
+            "URIs": [
+                "s3://kafka-stock-analytics/result-zone/Unsaved/2024/08/08/c0cf17b6-2a4d-4fe5-95ea-b3b890d8d5fd.csv"
+            ]
+        }
+    ],
+    "globalUploadSettings": {
+        "format": "CSV",
+        "delimiter": ",",
+        "textqualifier": "\"",
+        "containsHeader": "true"
+    }
+}
