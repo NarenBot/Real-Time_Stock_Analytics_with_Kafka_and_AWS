@@ -83,7 +83,7 @@ Open a new console>
 cd kafka_2.12-3.3.1
 export KAFKA_HEAP_OPTS="-Xmx256M -Xms128M" ## Used to set JVM options for Kafka's heap memory.
 ```
-Note: Change 'ADVERTISED_LISTENERS' property inside 'config/server.properties' so that it can run in Public-IP.
+Note: Change 'ADVERTISED_LISTENERS' property inside 'config/server.properties', so that it can run in Public-IP.
 ```bash
 bin/kafka-server-start.sh config/server.properties
 ```
@@ -124,9 +124,8 @@ bin/kafka-console-consumer.sh --topic kafkatest --bootstrap-server 54.159.21.31:
 - Develop an ETL job to transform the crawled data and save as 'Parquet' format in the specified S3 bucket.
 - Set up Amazon Athena to perform queries on the data using standard SQL for analysis.
 
-![Athena-Results](./images/Kafka_Athena_Results.png)
-![Stock-ETL](./images/stock-etl.png)
-
+#### Buckets_Glue_Athena (Preview)
+![Bucket_ETL_Athena](./images/Bucket_ETL_Athena.png)
 <p align="right">(<a href="#top">Back to Top</a>)</p>
 
 ### Contact
